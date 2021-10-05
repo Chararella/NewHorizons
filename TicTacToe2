@@ -1,0 +1,814 @@
+def main():
+  print()
+print ("Tic Tac Toe")
+print()
+
+#grid start
+from itertools import zip_longest
+
+lets = list("."*436)
+def table(it, rows):
+
+  return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+
+
+#first board
+
+import re
+import string
+
+letters = []
+a = "####################"
+b = "####################"
+c = "######################"
+d = "######################"
+lets [120:140:1] = a
+lets [280:300:1] = b
+lets [6:435:20] = c
+lets [13:435:20] = d
+
+letters = []
+print()
+print("ONE")
+
+tt = "###################"
+lets [60:79:1] = tt
+
+
+#the o's: 0,0
+p0 =     "x#"
+p1 =    "x.#x"
+p2 =    "x.#x"
+p3 =    "x.#x"
+p4 =     "x#"
+
+lets [41:81:20] = p0
+lets [22:102:20] = p1
+lets [23:103:20] = p2
+lets [24:104:20] = p3
+lets [45:85:20] = p4
+#the o's 1,0
+s0 =     "x#"
+s1 =    "x.#x"
+s2 =    "x.#x"
+s3 =    "x.#x"
+s4 =     "x#"
+
+lets [48:88:20] = s0
+lets [29:109:20] = s1
+lets [30:110:20] = s2
+lets [31:111:20] = s3
+lets [52:92:20] = s4
+#the o's: 2,0
+v0 =     "x#"
+v1 =    "x.#x"
+v2 =    "x.#x"
+v3 =    "x.#x"
+v4 =     "x#"
+
+lets [55:95:20] = v0
+lets [36:116:20] = v1
+lets [37:117:20] = v2
+lets [38:118:20] = v3
+lets [59:99:20] = v4
+#the o's: 1,1
+t0 =     "xx"
+t1 =    "x..x"
+t2 =    "x..x"
+t3 =    "x..x"
+t4 =     "xx"
+
+lets [208:248:20] = t0
+lets [189:269:20] = t1
+lets [190:270:20] = t2
+lets [191:271:20] = t3
+lets [212:252:20] = t4
+
+
+
+#x symbol (0,2)
+g0 = "x"
+g1 = "x"
+g2 = "x"
+g3 = "x"
+g4 = "x"
+g5 = "x"
+g6 = "x"
+g7 = "x"
+g8 = "x"
+
+lets [62+320] = g0
+lets [43+320] = g1
+lets [24+320] = g2
+lets [22+320] = g3
+lets [64+320] = g4
+lets [5+320] = g5
+lets [1+320] = g6
+lets [81+320] = g7
+lets [85+320] = g8
+#x symbol (2,2)
+o0 = "x"
+o1 = "x"
+o2 = "x"
+o3 = "x"
+o4 = "x"
+o5 = "x"
+o6 = "x"
+o7 = "x"
+o8 = "x"
+
+lets [62+320+14] = o0
+lets [43+320+14] = o1
+lets [24+320+14] = o2
+lets [22+320+14] = o3
+lets [64+320+14] = o4
+lets [5+320+14] = o5
+lets [1+320+14] = o6
+lets [81+320+14] = o7
+lets [85+320+14] = o8
+
+
+#the formula
+def table (it,rows):
+    return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+import string
+alphabet = string.ascii_letters + string.punctuation
+
+for i in range (20):
+  import re
+
+
+i += 1
+" ".join(lets)
+lets
+" ".join(lets)
+for t in table(lets, 20):
+  print(*t)
+  #grid end
+#second board
+#grid start
+from itertools import zip_longest
+
+lets = list("."*436)
+def table(it, rows):
+
+  return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+
+
+#second board
+import re
+import string
+
+letters = []
+
+a = "####################"
+b = "####################"
+c = "######################"
+d = "######################"
+lets [120:140:1] = a
+lets [280:300:1] = b
+lets [6:435:20] = c
+lets [13:435:20] = d
+
+uu = "####################"
+lets [17:407:20] = uu
+
+print()
+print()
+print()
+print("TWO")
+#x symbol (1,0)
+h0 = "x"
+h1 = "x"
+h2 = "x"
+h3 = "x"
+h4 = "x"
+h5 = "x"
+h6 = "x"
+h7 = "x"
+h8 = "x"
+
+lets [62+7] = h0
+lets [43+7] = h1
+lets [24+7] = h2
+lets [22+7] = h3
+lets [64+7] = h4
+lets [5+7] = h5
+lets [1+7] = h6
+lets [81+7] = h7
+lets [85+7] = h8
+#the o's: 2,0
+v0 =     "xx"
+v1 =    "x..x"
+v2 =    "####"
+v3 =    "x..x"
+v4 =     "xx"
+
+lets [55:95:20] = v0
+lets [36:116:20] = v1
+lets [37:117:20] = v2
+lets [38:118:20] = v3
+lets [59:99:20] = v4
+#the o's: 1,1
+t0 =     "xx"
+t1 =    "x..x"
+t2 =    "x..x"
+t3 =    "x..x"
+t4 =     "xx"
+
+lets [208:248:20] = t0
+lets [189:269:20] = t1
+lets [190:270:20] = t2
+lets [191:271:20] = t3
+lets [212:252:20] = t4
+#the o's: 2,1
+w0 =     "xx"
+w1 =    "x..x"
+w2 =    "####"
+w3 =    "x..x"
+w4 =     "xx"
+
+lets [215:255:20] = w0
+lets [196:276:20] = w1
+lets [197:277:20] = w2
+lets [198:278:20] = w3
+lets [219:259:20] = w4
+#x symbol (0,2)
+g0 = "x"
+g1 = "x"
+g2 = "x"
+g3 = "x"
+g4 = "x"
+g5 = "x"
+g6 = "x"
+g7 = "x"
+g8 = "x"
+
+lets [62+320] = g0
+lets [43+320] = g1
+lets [24+320] = g2
+lets [22+320] = g3
+lets [64+320] = g4
+lets [5+320] = g5
+lets [1+320] = g6
+lets [81+320] = g7
+lets [85+320] = g8
+#x symbol (1,2)
+l0 = "x"
+l1 = "x"
+l2 = "x"
+l3 = "x"
+l4 = "x"
+l5 = "x"
+l6 = "x"
+l7 = "x"
+l8 = "x"
+
+lets [62+320+7] = l0
+lets [43+320+7] = l1
+lets [24+320+7] = l2
+lets [22+320+7] = l3
+lets [64+320+7] = l4
+lets [5+320+7] = l5
+lets [1+320+7] = l6
+lets [81+320+7] = l7
+lets [85+320+7] = l8
+#the o's: 2,2
+y0 =     "xx"
+y1 =    "x..x"
+y2 =    "####"
+y3 =    "x..x"
+y4 =     "xx"
+
+lets [375:415:20] = y0
+lets [356:436:20] = y1
+lets [357:437:20] = y2
+lets [358:438:20] = y3
+lets [379:419:20] = y4
+
+#the formula
+def table (it,rows):
+    return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+import string
+alphabet = string.ascii_letters + string.punctuation
+
+for i in range (20):
+  import re
+
+
+i += 1
+" ".join(lets)
+lets
+" ".join(lets)
+for t in table(lets, 20):
+  print(*t)
+  #grid end
+
+#grid start
+#third board
+from itertools import zip_longest
+
+lets = list("."*436)
+def table(it, rows):
+
+  return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+
+
+import re
+import string
+
+letters = []
+a = "####################"
+b = "####################"
+c = "######################"
+d = "######################"
+lets [120:140:1] = a
+lets [280:300:1] = b
+lets [6:435:20] = c
+lets [13:435:20] = d
+print()
+print()
+print()
+print("THREE")
+
+vv0 = "#"
+vv1 = "#"
+vv2 = "#"
+vv3 = "#"
+vv4 = "#"
+vv5 = "#"
+vv6 = "#"
+vv7 = "#"
+vv8 = "#"
+vv9 = "#"
+vv10 = "#"
+vv11 = "#"
+vv12 = "#"
+vv13 = "#"
+vv14 = "#"
+vv15 = "#"
+vv16 = "#"
+vv17 = "#"
+vv18 = "#"
+vv19 = "#"
+lets [19] = vv0
+lets [38] = vv1
+lets [57] = vv2
+lets [76] = vv3
+lets [95] = vv4
+lets [114] = vv5
+lets [133] = vv6
+lets [152] = vv7
+lets [171] = vv8
+lets [190] = vv9
+lets [209] = vv10
+lets [228] = vv11
+lets [247] = vv12
+lets [266] = vv13
+lets [285] = vv14
+lets [304] = vv15
+lets [323] = vv16
+lets [342] = vv17
+lets [361] = vv18
+lets [380] = vv19
+
+#x symbol (0,0)
+e0 = "x"
+e1 = "x"
+e2 = "x"
+e3 = "x"
+e4 = "x"
+e5 = "x"
+e6 = "x"
+e7 = "x"
+e8 = "x"
+
+lets [62] = e0
+lets [43] = e1
+lets [24] = e2
+lets [22] = e3
+lets [64] = e4
+lets [5] = e5
+lets [1] = e6
+lets [81] = e7
+lets [85] = e8
+#x symbol (1,0)
+h0 = "x"
+h1 = "x"
+h2 = "x"
+h3 = "x"
+h4 = "x"
+h5 = "x"
+h6 = "x"
+h7 = "x"
+h8 = "x"
+
+lets [62+7] = h0
+lets [43+7] = h1
+lets [24+7] = h2
+lets [22+7] = h3
+lets [64+7] = h4
+lets [5+7] = h5
+lets [1+7] = h6
+lets [81+7] = h7
+lets [85+7] = h8
+#the o's: 2,0
+v0 =     "xx"
+v1 =    "x.#x"
+v2 =    "x#.x"
+v3 =    "#..x"
+v4 =     "xx"
+
+lets [55:95:20] = v0
+lets [36:116:20] = v1
+lets [37:117:20] = v2
+lets [38:118:20] = v3
+lets [59:99:20] = v4
+#the o's: 1,1
+t0 =     "x#"
+t1 =    "x#.x"
+t2 =    "#..x"
+t3 =    "x..x"
+t4 =     "xx"
+
+lets [208:248:20] = t0
+lets [189:269:20] = t1
+lets [190:270:20] = t2
+lets [191:271:20] = t3
+lets [212:252:20] = t4
+#the o's (0,2)
+r0 =     "#x"
+r1 =    "#..x"
+r2 =    "x..x"
+r3 =    "x..x"
+r4 =     "xx"
+
+lets [361:401:20] = r0
+lets [342:422:20] = r1
+lets [343:423:20] = r2
+lets [344:424:20] = r3
+lets [365:405:20] = r4
+
+
+#the formula
+def table (it,rows):
+    return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+import string
+alphabet = string.ascii_letters + string.punctuation
+
+for i in range (20):
+  import re
+
+i += 1
+" ".join(lets)
+lets
+" ".join(lets)
+for t in table(lets, 20):
+    print(*t)
+
+  #start game
+
+#grid start
+#start game
+from itertools import zip_longest
+
+lets = list("."*440)
+def table(it, rows):
+
+  return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+
+
+
+import re
+import string
+
+letters = []
+print()
+print()
+print()
+print("START")
+#the structure
+a = "####################"
+b = "####################"
+c = "######################"
+d = "######################"
+lets [120:140:1] = a
+lets [280:300:1] = b
+lets [6:435:20] = c
+lets [13:435:20] = d
+
+#the formula
+def table (it,rows):
+    return zip_longest(*[it[i:i+rows] for i in range(0, len(it), rows)], fillvalue="  ")
+import re
+import string
+alphabet = string.ascii_letters + string.punctuation
+
+for i in range (20):
+  import re
+
+
+i += 1
+" ".join(lets)
+lets
+" ".join(lets)
+for t in table(lets, 20):
+  print(*t)
+  #grid end
+
+#introduction
+print()
+print("Welcome to TicTacToe! The game of naughts and crosses\n",)
+print ("where you play against the computer to win by scoring\n",)
+print("three in a row! Play with coordinates i = 0,1,2 and j = 0,1,2 to win!\n",)
+print()
+print("Player 1: Computer is O.\n",)
+print("Player 2: User is X.\n",)
+print("Computer goes first.\n",)
+print()
+
+import random
+import string
+hh = 0
+while hh < 5:
+    com_0 = []
+    com_1 = []
+    com_0 = ["(0,0)","(0,1)","(0,2)","(1,0)","(1,1)","(1,2)","(2,0)","(2,1)","(2,2)"]
+    com_1 = ["(0,0)", "(0,2)", "(1,1)", "(2,0)", "(2,2)"]
+    com_0 = random.choice (com_0)
+    com_1 = random.choice (com_1)
+#random.choice(com_1)
+
+    aa = 0
+    bb = 0
+    cc = 0
+    dd = 0
+    i = 0
+    j = 0
+    elem = 0
+    aa = com_1
+    print ("Player 1: (1,1)") == aa
+##set(com_1).pop()
+
+    bb = input("Player 2: ")
+    print ()
+    print ()
+##cc = random.choice(com_0)
+    cc = com_1
+    print("Player 1: ", end = "" ) == cc
+    if bb == "(0,0)":
+      print ("(0,2)")
+    if bb == "(0,1)":
+      print ("(0,0)")
+    if bb == "(0,2)":
+      print ("(2,2)")
+    if bb == "(1,0)":
+      print ("(2,0)")
+    if bb == "(1,2)":
+      print ("(2,2)")
+    if bb == "(2,0)":
+      print ("(2,2)")
+    if bb == "(2,1)":
+      print ("(2,0)")
+    if bb == "(2,2)":
+      print ("(0,2)")
+
+    dd = input("Player 2: ")
+    print()
+
+    ee = com_1
+    print ("Player 1: ", end= "") == ee
+
+    if bb + dd == "(0,0)" + "(0,1)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,0)" + "(0,2)":
+      print ("(0,1)\n", "Player 1 wins!")
+    if bb + dd == "(0,0)" + "(1,0)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,0)" + "(1,2)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,0)" + "(2,0)":
+      print ("(1,2)\n", "Player 1 / Player 2 tie!")
+#winning move
+
+    if bb + dd == "(0,0)" + "(2,1)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,0)" + "(2,2)":
+      print ("(2,0)\n", "Player 1 wins!")
+
+    if bb + dd == "(0,1)" + "(0,2)":
+      print ("(2,2)\n", "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(1,0)":
+      print ("(2,2)\n", "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(1,2)":
+      print ("(2,2)\n",  "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(2,0)":
+      print ("(2,2)\n",  "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(2,1)":
+      print ("(2,2)\n",  "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(2,2)":
+      print ("(2,0)\n", "Player 1 wins!")
+#winning move
+
+    if bb + dd == "(0,2)" + "(0,1)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,2)" + "(1,0)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,2)" + "(1,2)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,2)" + "(2,0)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,2)" + "(2,1)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(0,2)" + "(0,0)":
+      print ("(0,1)")
+#winning move
+
+    if bb + dd == "(1,0)" + "(0,0)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(1,0)" + "(0,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(1,0)" + "(0,2)":
+      print ("(2,2)\n", "Player 1 / Player 2 tie!")
+    if bb + dd == "(1,0)" + "(1,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(1,0)" + "(2,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(1,0)" + "(2,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+
+    if bb + dd == "(0,1)" + "(1,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(2,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(2,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(0,1)" + "(0,2)":
+      print ("(2,2)\n", "Player 1 wins!")
+#winning move
+
+    if bb + dd == "(1,2)" + "(0,1)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(1,2)" + "(0,2)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(1,2)" + "(1,0)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(1,2)" + "(2,0)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(1,2)" + "(2,1)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(1,2)" + "(0,0)":
+      print ("(2,0)\n", "Player 1 wins!")
+#winning move
+
+    if bb + dd == "(2,0)" + "(0,1)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,0)" + "(0,2)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,0)" + "(1,0)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,0)" + "(1,2)":
+      print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,0)" + "(2,1)":
+       print ("(0,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,0)" + "(0,0)":
+      print ("(1,0)")
+#winning move
+
+    if bb + dd == "(2,1)" + "(0,0)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(2,1)" + "(0,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(2,1)" + "(1,0)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(2,1)" + "(1,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(2,1)" + "(2,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd == "(2,1)" + "(0,2)":
+      print ("(0,0)")
+#winning move
+
+    if bb + dd == "(2,2)" + "(0,0)":
+      print ("(1,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,2)" + "(0,1)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,2)" + "(1,0)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,2)" + "(1,2)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,2)" + "(2,1)":
+      print ("(2,0)\n", "Player 1 wins!")
+    if bb + dd == "(2,2)" + "(2,0)":
+      print ("(0,1)")
+#winning move
+    ff = com_1
+    ff = input ("Player 2: ")
+    print()
+    print ("Player 1: ", end = "")
+    if bb + dd + ff == "(0,0)" + "(2,0)" + "(1,0)":
+      print ("(1,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,0)" + "(2,0)" + "(2,1)":
+      print ("(1,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,0)" + "(2,0)" + "(2,2)":
+      print ("(1,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,0)" + "(2,0)" + "(1,2)":
+      print ("(0,1)\n", "Player 1 / Player 2 tie!")
+
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(0,2)":
+      print ("(1,0)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(2,1)":
+      print ("(1,0)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(1,2)":
+      print ("(1,0)\n", "Player 1 wins!")
+    if bb + dd + ff ==  "(0,1)" + "(2,2)" + "(1,0)":
+      print ("(0,2)\n", "Player 1 wins!")
+
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(1,0)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(1,2)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(2,0)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(0,1)" + "(2,2)" + "(2,1)":
+      print ("(1,0)\n", "Player 1 / Player 2 tie!")
+
+    if bb + dd + ff == "(0,2)" + "(0,0)" + "((2,0)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,0)" + "(0,0)" + "(0,1)":
+      print ("(1,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,0)" + "(0,0)" + "(2,1)":
+      print ("(1,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,0)" + "(0,0)" + "(1,2)":
+      print ("(0,2)\n", "Player 1 / Player 2 tie!")
+
+    if bb + dd + ff == "(1,0)" + "(2,1)" + "(0,0)":
+      print ("(0,2)\n)", "Player 1 wins!")
+    if bb + dd + ff == "(1,0)" + "(2,1)" + "(0,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(1,0)" + "(2,1)" + "(1,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(1,0)" + "(2,1)" + "(2,1)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(1,0)" + "(2,1)" + "(2,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(1,0)" +  "(2,1)" + "(2,2)":
+      print ("(0,2)\n", "Player 1 wins!")
+
+    if bb + dd + ff == "(2,1)" + "(0,2)" + "(0,1)":
+      print ("(1,0)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,1)" + "(0,2)" + "(1,0)":
+      print ("(2,2)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,1)" + "(0,2)" + "(2,2)":
+      print ("1,0)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,1)" + "(0,2)" + "(0,2)":
+      print ("(1,0)\n", "Player 1 wins!")
+
+    if bb + dd + ff == "(2,2)" + "(2,0)" + "(0,0)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,2)" + "(2,0)" + "(1,0)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,2)" + "(2,0)" + "(1,2)":
+      print ("(2,1)\n", "Player 1 wins!")
+    if bb + dd + ff == "(2,2)" + "(2,0)" + "(2,1)":
+      print ("(1,2)\n", "Player 2 wins!")
+    print ()
+    print ("Play again Y/N?", end= " ")
+    az = input ()
+    print()
+    if (az) == "Y":
+         hh += 1
+
+    else:
+	    print ("Goodbye.")
+	    print ()
+	    print ("Thanks for playing TicTacToe.")
+	    quit()
+
+########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
