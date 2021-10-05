@@ -1,0 +1,210 @@
+print("Well, we meet again! We've been stargazing! ")
+print("How close are the stars? No-one knows... except AI.")
+print("                                         [Enter AI] ")
+print()
+print("[Press return to continue.]")
+ai = input ()
+#cls
+print()
+print("Hello all! These are my favorite stars of the Big Screen.")
+print("They all know each other! Ask me about the degrees of separation")
+print("and i will tell you just how far apart they are.")
+print("My lucky stars are:")
+print()
+print("Gary Sinise\n")
+print("Tom Cruise\n")
+print("Tom Hanks\n")
+print("Kevin Bacon\n")
+print("Robin Wright\n")
+print()
+print("Are we ready to start?")
+print("OK!")
+print()
+print("Where is the First?\n")
+aa = input()
+print()
+print("Where is the Second?\n")
+bb = input()
+print()
+if aa == ("Tom Cruise"):
+    print (aa)
+    if bb == ("Kevin Bacon"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Tom Cruise and Kevin Bacon")
+        print("(1,2)")
+        print("1: Tom Cruise starred in A Few Good Men, 1992 with Kevin Bacon.")
+        print()
+    if bb == ("Tom Hanks"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Tom Cruise and Tom Hanks.")
+        print("(1,2),(2,3)")
+        print("1: Tom Cruise starred in A Few Good Men, 1992 with Kevin Bacon.")
+        print("2: Kevin Bacon starred in Apollo 13, 1992 with Tom Hanks.")
+        print()
+    if bb == ("Gary Sinise"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Tom Cruise and Gary Sinise")
+        print("(1,2),(2,4)")
+        print("1: Tom Cruise starred in A Few Good Men, 1992 with Kevin Bacon")
+        print("2: Kevin Bacon starred in Apollo 13, 1992 with Gary Sinise.")
+        print()    
+    if bb == ("Robin Wright"):
+        print (bb)
+        print()
+        print("There are three degrees of separation between Tom Cruise and Robin Wright")
+        print("(1,2),(2,3),(3,5)")
+        print("1: Tom Cruise starred in A Few Good Men, 1992 with Kevin Bacon.")
+        print("2: Kevin Bacon starred in Apollo 13, 1992 with Tom Hanks.")
+        print("3: Tom Hanks starred in Forrest Gump 1994 with Robin Wright.")
+        print()
+
+
+
+if aa == ("Kevin Bacon"):
+    print (aa)
+    if bb == ("Tom Cruise"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Kevin Bacon and Tom Cruise.")
+        print("(1,1)")
+        print("1: Kevin Bacon starred in A Few Good Men, 1992 with Tom Cruise.")
+        print()
+    if bb == ("Tom Hanks"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Kevin Bacon and Tom Hanks.")
+        print("(2,3)")
+        print("1: Kevin Bacon starred in Forrest Gump, 1994 with Tom Hanks.")
+        print()
+    if bb == ("Gary Sinise"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Kevin Bacon and Gary Sinise.")
+        print("(2,4)")
+        print("1: Kevin Bacon starred in Apollo 13, 1995 with Gary Sinise.")
+        print()    
+    if bb == ("Robin Wright"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Kevin Bacon and Robin Wright.")
+        print("(2,3)(3,5)")
+        print("1: Kevin Bacon starred in Apollo 13, 1995 with Tom Hanks.")
+        print("2: Tom Hanks starred in Forrest Gump, 1994 with Robin Wright.")
+        print()
+
+
+
+if aa == ("Tom Hanks"):
+    print (aa)
+    if bb == ("Kevin Bacon"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Tom Hanks and Kevin Bacon")
+        print("(2,2)")
+        print("1: Tom Hanks starred in Apollo 13, 1995 with Kevin Bacon.")
+        print()
+    if bb == ("Tom Cruise"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Tom Hanks and Tom Cruise.")
+        print("(2,2),(1,1)")
+        print("1: Tom Hanks starred in Apollo 13, 1995 with Kevin Bacon.")
+        print("2: Kevin Bacon starred in A Few Good Men 1992 with Tom Cruise.")
+        print()
+    if bb == ("Gary Sinise"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Tom Hanks and Gary Sinise")
+        print("(3,4)")
+        print("1: Tom Hanks starred in Forrest Gump, 1994 with Gary Sinise.")
+        print()    
+    if bb == ("Robin Wright"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Tom Hanks and Robin Wright")
+        print("(3,5)")
+        print("1: Tom Hanks starred in Forrest Gump, 1994 with Robin Wright.")
+        print()
+
+        
+if aa == ("Gary Sinise"):
+    print (aa)
+    if bb == ("Kevin Bacon"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Gary Sinise and Kevin Bacon")
+        print("(2,2)")
+        print("1: Gary Sinise starred in Apollo 13, 1995 with Kevin Bacon.")
+        print()
+    if bb == ("Tom Hanks"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Gary Sinise and Tom Hanks.")
+        print("(2,3)")
+        print("1: Gary Sinise starred in Forrest Gump, 1994 with Tom Hanks.")
+        print()
+    if bb == ("Tom Cruise"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Gary Sinise and Tom Cruise.")
+        print("(2,2),(1,1)")
+        print("1: Gary Sinise starred in Apollo 13, 1995 with Kevin Bacon.")
+        print("2: Kevin Bacon starred in A Few Good Men, 1992 with Tom Cruise")
+        print()    
+    if bb == ("Robin Wright"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Gary Sinise and Robin Wright")
+        print("(3,5)")
+        print("1: Gary Sinise starred in Forrest Gump, 1994 with Robin Wright.")
+        print()       
+        
+        
+        
+if aa == ("Robin Wright"):
+    print (aa)
+    if bb == ("Kevin Bacon"):
+        print (bb)
+        print()
+        print("There are two degrees of separation between Robin Wright and Kevin Bacon")
+        print("(3,2),(2,2)")
+        print("1: Robin Wright starred in Forrest Gump, 1994 with Tom Hanks.")
+        print("2: Tom Hanks starred in Apollo 13, 1995 with Kevin Bacon.")
+        print()
+    if bb == ("Tom Hanks"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Robin Wright and Tom Hanks.")
+        print("(3,3)")
+        print("1: Robin Wright starred in Forrest Gump, 1994 with Tom Hanks.")
+        print() 
+    if bb == ("Gary Sinise"):
+        print (bb)
+        print()
+        print("There is one degree of separation between Robin Wright and Gary Sinise")
+        print("(3,4)")
+        print("1: Robin Wright starred in Forrest Gump, 1994 with Gary Sinise.")
+        print()    
+    if bb == ("Tom Cruise"):
+        print (bb)
+        print()
+        print("There are three degrees of separation between Tom Cruise and Robin Wright")
+        print("(3,3),(2,2),(1,1)")
+        print("1: Robin Wright starred in Forrest Gump, 1994 with Tom Hanks.")
+        print("2: Tom Hanks starred in Apollo 13, 1995 with Kevin Bacon.")
+        print("3: Kevin Bacon starred in A Few Good Men, 1992 with Tom Cruise")
+        print()        
+      
+
+        
+        
+        
+
+    
+    
+    
+    
+    
