@@ -1,0 +1,25 @@
+print ()
+print ()
+print ("Program to  assess gene trait.")
+print ()
+import decimal
+print ("Enter the percentage likelyhood of having 2 genes: ")
+a = input()
+print()
+print ("Enter the percentage likelihood of having 1 gene: ")
+b = input()
+print ()
+c = 0
+d = 0
+e = 0
+c =  (float(a) *4)
+d = (float(b) / 2)
+e = (float(c) + float(d)) 
+g = format(e, "4f")
+print ("Percentage to determine if the person has the trait: " )
+print ("True: ", g)
+h = ( 1 - float(g))
+i = format(h, "4f")
+print ("False: ", i)
+
+
