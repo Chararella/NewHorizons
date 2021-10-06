@@ -1,0 +1,192 @@
+
+
+#Knights and Knaves!
+#Puzzle 0
+print("Hello and welcome to Knights and Knaves!  ")
+print()
+print("A knight will always tell the truth.")
+print("A knave will always lie.")
+print()
+print("We have 3 characters A, B and C.  ")
+print()
+a = input("Puzzle 0. A is a knight T/F?  ")
+print()
+b = input("A is a knave T/F?  ")
+print()
+if (a and b) == True:
+  a == knight(True)
+  b == knave(True)
+  knave != True
+(a and b) == False
+print()
+print("Both knight and knave is False.")
+print()
+if (a and b) == False:
+  a = knight(False)
+  b = knave(False)
+  knight != False
+  b == knave
+if a == "T":
+  print("A is a knave.")
+if b == "T":
+  print("The statement is False.")
+if a == "F":
+  print("Knight cannot be false. A is a knave.")
+if b == "F":
+  print("If both he must be lying. The statement is false and A is a knave.")
+print()
+#Puzzle 1
+c = input("Puzzle 1. A says A and B are both knaves T/F?  ")
+print()
+if c == True:
+  A == knave(True)
+  B == knave(True)
+if c == True:
+   A = knight(True)
+   A != True
+if c == False:
+ A == knave
+ B == knight
+if c == "T":
+  print ("A is a knave.")
+  print()
+  print ("B is a knight.")
+if c == "T":
+  print("The statement is False.")
+print()
+if c == "F":
+  print("A is lying. The statement is false.")
+  print()
+#puzzle 2
+print("Puzzle 2. There are two characters A and B.")
+print()
+d = input("A says 'We are the same kind.' T/F?  ")
+print()
+e = input("B says 'We are different kinds' T/F?  ")
+print()
+print()
+if d == True:
+  A and B == Knights
+  d = True
+if d == False:
+  A == knave and B == knight(different)
+  A and B == knaves(same) != True
+  B == knight
+  A is unconclusive
+if e == True:
+  A == knight and B == knave
+  A == knave and B == knight
+  B == knight
+  A != knave
+  A == knight
+  A and B == knights(same)
+  e == False
+if e == False:
+  e == (same)
+  A and B == knights(same)
+  A and B == knaves(same)
+  e == True(different)
+  B == knight
+  A == knave
+if d =="T":
+  print("A is lying and B is telling the truth.")
+  print()
+  print("A and B are different kinds.")
+  print()
+  print("A is a knave.")
+  print()
+  print("B is a knight.")
+  print()
+  print("The second statement is True.")
+if d =="F":
+  print()
+  print("The first statement is False.")
+  print("The second statement is True.")
+  print()
+  print("A is a knave and B is a knight.")
+if e =="T":
+  print()
+  print("A and B are different kinds.")
+  print()
+  print("B is telling the truth.")
+  print()
+  #puzzle 3
+  print("Puzzle 3. We have three characters A, B and C.")
+  print()
+  f = input("A says: 'I am a knight' T/F?  ")
+  print()
+  g = input("A says: 'I am a knave' T/F?  ")
+  print()
+  h = input("B says: 'A said: 'I am a knave'' T/F?  ")
+  print()
+  i = input("B says: 'C is a knave' T/F?  ")
+  print()
+  j = input("C says: 'A is a knight' T/F?  ")
+  print()
+  A = 0
+  B = 0
+  C = 0
+  knight = 0
+  knave = 0
+  A == knight == True
+  False == knave
+  A != knave != True
+  A == knave == False
+  A == knight
+  B == A == knave
+  if True:
+    B == knight
+  A == knave
+  A != knave
+  B == False
+  B == knave
+  A == knight
+  C != knave
+  C == knight
+  if True:
+     C == knight
+     A == knight
+     C == True
+     C == knight
+     A == knight
+  if f == "T":
+    print("A is either knight or knave.")
+    print()
+  if f == "F":
+   print("A cannot be both knight and knave.")
+   print()
+  if h == "T":
+   print("A is True, B is False. C is True.")
+   print()
+  if h == "F":
+   print("B is lying. He is a knave.")
+   print()
+  if i == "T":
+   print("B is lying. C is not a knave.")
+   print()
+  if i == "F":
+   print("A is a knight. B is a knave. C is a knight.")
+   print()
+  if j == "T":
+   print("C is telling the truth: A is a knight.")
+   print()
+   print("C is a also a knight.")
+   print()
+  if j == "F":
+   print("C is telling the truth.")
+   print()
+   print("A is a knight, B is a knave and C is a knight.")
+   print()
+   print()
+   print("Well done! You scored 100%. Thank you for playing Knights and Knaves.")
+
+
+print("")
+
+
+
+
+
+
+
+
