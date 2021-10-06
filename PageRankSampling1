@@ -1,0 +1,228 @@
+print("--Sampling--")
+print()
+print()
+#def_main superfruits:
+print("superfruits.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/ 12)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/ 12)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/ 12)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/ 12)
+print()
+print()
+s = input("Press any key to continue: \n")
+#def_main ballooning:
+print("ballooning.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/80)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/80)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/ 80)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/ 80)
+print()
+print()
+t=input("Press any key to continue: \n")
+#def_main x-men:
+print("x-men.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/23)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/23)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/23)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/23)
+print()
+print()
+u =input("Press any key to continue: \n")
+#def_main minesweeper:
+print("minesweeper.html")
+
+
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/18)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/18)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/18)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/18)
+print()
+print()
+v=input("Press any key to continue:  \n")
+#def_main prezziebox:
+print("prezziebox.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/16)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/16)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/16)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/16)
+print()
+print()
+w=input("Press any key to continue: \n")
+#def_main crossword
+print("crossword.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.17)/21)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.17)/21)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.17)/21)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.17)/21)
+print()
+print()
+x=input("Press any key to continue:  \n")
+#def_main knights
+print("knights.html")
+A = 0.2223
+B = 0.4303
+C = 0.2145
+D = 0.1329
+
+import random
+#aa = ["A", "B"]
+aa = [0.2223, 0.4303]
+#bb = ["A", "B", "C", "D"]
+bb = [0.2223, 0.4303, 0.2145, 0.1329]
+#cc = ["B", "C"]
+cc = [0.4303, 0.2145]
+#dd = ["D"]
+dd = [0.1329]
+
+aa = random.choice (aa)
+bb = random.choice (bb)
+cc = random.choice (cc)
+dd = random.choice (dd)
+
+
+#print( aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd,aa,bb,cc,dd)
+E = print((aa + bb + cc + dd + aa + bb + cc + dd + aa + bb + cc + dd * 0.15 )/14)
+F = print((bb + bb + cc + cc + dd + dd + aa + aa + bb + bb + cc + cc * 0.15 )/14)
+G = print((cc + cc + cc + dd + dd + dd + aa + aa + aa + bb + bb + bb * 0.15)/14)
+H = print((dd + bb + cc + aa + dd + bb + cc + aa + dd + bb + cc + dd * 0.15)/14)
+
+
+
+
+
+
+
+
+
