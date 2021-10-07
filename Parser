@@ -1,0 +1,114 @@
+import random
+print("Sherlock Holmes (If you believe.)\n")
+i = 0
+adj = ["breezy", "freezing", "bumpy", "fuzzy", "chilly", "hard", "slippery", "cool", "hot", "smooth",
+"cuddly", "icy", "soft", "damp", "soporific", "sticky", "tender", "dusty", "tight", "rough", "warm", "shaky",
+"blaring", "melodic", "shrill", "muffled", "silent", "high-pitched", "loud", "resonant", "whispering",
+"azure", "grey", "green", "blue", "indigio", "hushed", "red", "bright", "lavender", "rosy", "brown", "light",
+"scarlet", "crimson", "Magenta", "silver", "dark", "multicolored", "turquoise", "mustard", "orange", "white"]
+adj1 = ["gold", "pink", "flat", "fluffy", "skinny", "circular", "crooked", "low", "straight", "narrow", "triangular",
+"deep", "oval", "wide", "rapid", "brief", "furturistic", "historical", "regular", "early", "late", "slow",
+"eternal", "sped", "fast", "modern", "speedy", "first", "swift", "waiting", "eager", "quick", "young",
+"heavy", "at one", "ample", "hundreds", "plentiful", "bountiful", "considerable", "several"]
+adj2 = ["sizable", "many", "some", "sparse", "enough", "mere", "substantual", "even", "multiple", "few",
+"myriad", "full", "numerous", "very", "grumpy", "energetic", "kind", "afraid", "enraged", "agreeable",
+"agressive", "envious", "lonely", "amused", "excited", "angry", "exhausted", "mysterious", "ashamed",
+"fair", "faithful", "obedient", "bitter", "fantastic", "outrageous", "boring", "fine", "panicky", "perfect"]
+adj3 = ["bored", "brainy", "clean", "careful", "creepy", "cheerful", "dark", "dizzy", "concerned", "arrogant"]
+abs_nouns = ["light", "love", "happiness", "awkwardness", "beauty", "longing", "starlight", "patience"]
+abs_nouns1 = ["sparkling", "wonderment", "enlightenment", "satisfaction", "sensitivity", "chaos", "indifference"]
+adverb = ["warmly", "seriously", "badly", "hastily", "quickly", "happily", "brutally", "cheerfully",
+"weirdly", "wholeheartedly", "wickedly", "literally", "simply", "really", "completely", "totally", "heartily", "totally"]
+adverb1 = ["slowly", "rapidly", "clumsily", "sweetly", "sadly", "softly", "beautifully", "generously", "patiently", "blisfully", "boldly",
+"faithfully", "awkwardly", "bashfully", "blindly", "brightly", "busily", "cautiously", "curiously", "daintily", "defiantly",
+"gracefully", "furiously", "fiercely", "heavily", "hopelessly", "intensely", "irritably", "joyously", "knavishly", "knowledgeably", "lightly",
+"limply", "longingly", "loyally", "majestically", "mechanically", "mysteriously", "promptly", "quietly", "reluctantly", "reproachfully", "restlessly",
+"roughly", "selfishly", "shyly", "silently", "smoothly", "speedily", "suddenly", "suspiciously", "thankfully", "victoriously"]
+adverb2 = ["Possibly", "Perchance", "Maybe", "Ultimately", "Presumably", "Feasably", "Understandably" ]
+adverbs_happened = ["early", "first", "last", "later", "new", "now", "regularly", "today", "tomorrow", "yesterday"]
+adverbs_extent = ["almost", "also", "enough", "only", "not", "quite", "so", "too", "very"]
+time = ["morning", "afternoon", "day", "night", "evening", "moon", "week", "month", "year", "eclipse", "birthday", "weekend"]
+posm = ["my", "your", "his", "our", "the"]
+posf = ["my", "your", "her", "our", "the"]
+PNm = ["Sam", "Bob", "Xavior", "Marcus", "Fred", "Mark", "David", "Rodger", "Robert", "Roy"]
+PNf = ["Frankie", "Annie", "Alice", "Saffy", "Kitty", "Patsy", "Margret", "Daisy", "Maud", "Tilly"]
+noun = ["dog", "cat", "shoebox", "mouse", "chair", "cloak", "cricket bat", "sport", "tennis balls", "washing-up", "jacket", "shoes"]
+noun1 = ["clouds", "mailboxes", "gardens", "roads", "treetops", "cityscapes", "beats", "rooms", "spare rooms", "pitstops"]
+noun2 = ["knife", "dagger", "gun", "rope", "candlestick", "iron rod", "evidence"]
+noun3 = ["footsteps", "damage", "clues", "gloves", "hat", "fibres", "sandwich", "newspaper", "article", "fingerprints", "parcel", "lighter", "candle", "ticket"]
+noun4 = ["stars", "moon", "stars and planets", "rainbow", "fluffy clouds", "lights", "sunset"]
+noun5 = ["burgular", "jewel thief", "murderer", "bank robber", "love cheat", "catnapper"]
+quantities = ["measures", "sprinklings", "batches", "stacks", "bottleloads", "scoops", "barrelfuls", "shiploads", "abundance", "cartloads", "meditations"]
+state = ["new", "old", "worn", "bright", "gleaming", "modern", "ancient", "lively", "happy little", "kind of", "sweet"]
+condition = ["state", "saga", "fiasco", "story", "lark", "theme", "game"]
+stative = ["like", "love", "want", "guess", "prefer", "agree", "hear", "disagree", "doubt", "presume",
+"wish", "dislike", "know", "realise", "mean", "understand", "believe", "remember", "recognise",
+"promise", "think", "imagine", "swear", "maintain", "see", "gather", "feel"]
+verb = ["jumping", "running", "fishing", "dancing", "skating", "creeping", "walking", "rolling", "standing"]
+det = ["of", "in", "about", "with"]
+det1 = ["of", "in", "about", "with"]
+past = ["became", "began", "bit", "broke", "brought", "caught", "chose", "drove", "felt", "froze", "got",
+"knew", "rose", "saw", "set", "sank", "spoke", "threw", "won", "wrote"]
+interr = ["how", "when"]
+interr1 = ["why", "where"]
+verb1 = ["sneeze", "guess", "fathom", "discern", "work out", "bring", "fling", "choose", "dream", "find", "give", "hide", "keep", "meet"]
+idoms = ["wild horses", "pink sunsets", "dark rainclouds", "two jiffies", "a jaffa orange", "a brown trout", "a wailing banshee", "fast fury",
+"two feathers", "half a sixpence", "a custard meringue", "a pink rainbow", "a ribbon and a pony", "two daydreams for a penny"]
+articles = ["in", "outside", "from", "along", "inside", "around", "through"]
+place = ["kitchen", "livingroom", "garden", "study", "bushes", "flowerbeds", "drawingroom", "bathroom", "yard"]
+conj = ["thanks to", "down to", "due to", "accredited to", "on account of", "because of" ]
+noun6 = ["promptly", "soon", "gladly", "kindly", "quickly", "completely"]
+
+adj = (random.sample(set(adj), 1) )
+adj1 = (random.sample(set(adj1), 1) )
+adj2 = (random.sample(set(adj2), 1) )
+adj3 = (random.sample(set(adj3), 1) )
+abs_nouns = (random.sample(set(abs_nouns), 1) )
+abs_nouns1 = (random.sample(set(abs_nouns1), 1) )
+adverb = (random.sample(set(adverb), 1) )
+adverb1 = (random.sample(set(adverb1), 1) )
+adverb2 = (random.sample(set(adverb2), 1) )
+adverbs_happened = (random.sample(set(adverbs_happened), 1) )
+adverbs_extent = (random.sample(set(adverbs_extent), 1) )
+time = (random.sample(set(time), 1) )
+posm = (random.sample(set(posm), 1) )
+posf = (random.sample(set(posf), 1) )
+PNm = (random.sample(set(PNm), 1) )
+noun = (random.sample(set(noun), 1) )
+noun1 = (random.sample(set(noun1), 1) )
+noun2 = (random.sample(set(noun2), 1) )
+noun3 = (random.sample(set(noun3), 1) )
+noun4 = (random.sample(set(noun4), 1) )
+quantities = (random.sample(set(quantities), 1) )
+state = (random.sample(set(state), 1) )
+condition = (random.sample(set(condition), 1) )
+stative = (random.sample(set(stative), 1) )
+verb = (random.sample(set(verb), 1 ) )
+det = (random.sample(set(det), 1) )
+det1 = (random.sample(set(det1), 1) )
+past = (random.sample(set(past), 1) )
+interr = (random.sample(set(interr), 1) )
+interr1 = (random.sample(set(interr1), 1) )
+verb1 = (random.sample(set(verb1), 1) )
+idoms = (random.sample(set(idoms), 1) )
+articles = (random.sample(set(articles), 1) )
+place = (random.sample(set(place), 1) )
+conj = (random.sample(set(conj), 1) )
+
+print()
+print("What a", random.choice(adverb), random.choice(adj), random.choice(time), "!" )
+print("It's up to", random.choice(PNm), "and", random.choice(posm), random.choice(state), random.choice(noun) )
+print(random.choice(condition), "I", random.choice(stative),". I", random.choice(stative), "I was", random.choice(verb), "about")
+print("and", random.choice(verb), "next to", random.choice(PNf), "and")
+print(random.choice(posf), random.choice(state), random.choice(noun),".")
+print()
+print("Well, the", random.choice(time), random.choice(past), random.choice(adverb1), random.choice(adj3) )
+print("and", random.choice(adj1), random.choice(det), random.choice(adj2), random.choice(quantities), random.choice(det1), "its" )
+print(random.choice(abs_nouns), "and", random.choice(abs_nouns1), "; but about", random.choice(interr), "and", random.choice(interr1) )
+print("they left the", random.choice(noun2), "no-one could", random.choice(verb1) )
+print(random.choice(idoms), ".")
+print()
+print(random.choice(adverb2), "it was the", random.choice(noun3), random.choice(articles), "the", random.choice(place)  )
+print("or the", random.choice(adj1), random.choice(noun4), "in the sky but the")
+print(random.choice(noun5), random.choice(noun6), "turned himself in, all", random.choice(conj) )
+print("Sherlock Holmes.")
