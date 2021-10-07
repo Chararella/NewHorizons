@@ -1,0 +1,130 @@
+print ("Shopping")
+print()
+print ("Abstract: This is a survey composed for a London")
+print ("department store to improve the accuracy of")
+print ("guesswork and correctly predict (0) for a purchase") 
+print ("and (1) for nil purchase.\n",)
+print ()
+print ("Customer Form")
+print ("1) On the scale of 0 to 10 where 0 is very ")
+print ("little and 10 is very much: ")
+A = input ("How much does advertising affect what you buy?\n",)
+print ()
+print ("2) On the scale of 0 to 10 where 0 is very ")
+print ("little and 10 is a lot: ")
+print ("On average how much time do you spend")
+B = input ("choosing a purchase?\n",)
+print ()
+C = input ("3) What month did you buy your last car? (1-12)\n",)
+print ()
+print("4) On the scale of 0 to 10 where 0 is not")
+print("very likely and 10 is very likely: ")
+print ("How likely are you to splash out on anniversaries/")
+D = input ("Christmas?\n",)
+print ()
+E = input ("5) Where do you live (London/near London/other)?\n",)
+print()
+print ("6) On the scale of 0 to 10 where 0 is very light ")
+print ("and 10 is very heavy: ")
+F = input ("What is the traffic like when you go to the shops?\n",)
+print ()
+print ("7) Do you agree with this statement?")
+G = input ("I do most of my shopping at the weekend (T/F)\n",)
+print ()
+print ("8) How often do you go shopping?")
+print ("Once a month\several times a month\once a week")
+H = input ("\more than once a week, every day(1-5)\n",)
+print () 
+print ()
+
+II = 1 - (int(A) / 10)
+I = round(II,1)
+JJ = 1 - (int(B) / 10)
+J = round(JJ,1)
+if C == "1" or "2 " or "3":
+  K = 0.9
+if C == "4" or "5":
+  K = 0.6
+if C == "6" or "7" or "8":
+  K= 0.2
+if C == "9" or "10" or "11":
+  K = 0.4
+if C == "12":
+  K = 0.1
+number = 0
+L = 1 - (int(D) / 10)
+Q = round(L,1)
+if E == "London" or "L" or "Lon" or "lon" or "london":
+  M = 0.1
+if E == "near London" or "n/L" or "N/L" or "Near London" or "near london":
+  M = 0.9
+elif E == "other" or "Other":
+  M = 0.1
+N = 1 - (int(F) / 10)
+R = round(N,1)
+if G == "T":
+  O = 0.5
+if G == "F":
+  O = 1.0
+P = (int(H)*2 / 10)
+print ()
+SS = (1 - I)
+S = round (SS,1)
+TT = (1 - J)
+T = round (TT,1)
+UU = (1 - K)
+U = round (UU,1)
+VV = (1 - Q)
+V = round (VV,1)
+WW = (1 - M)
+W = round (WW,1)
+XX = (1 - R)
+X = round (XX,1)
+YY = (1 - O)
+Y = round (YY,1)
+ZZ = (1 - P)
+Z = round (ZZ,1)
+
+AAA = (S + T + U + V + W + X + Y + Z) / 8
+AA = round (AAA,1)
+BBB = 1 - AAA
+BB = round (BBB,1)
+
+
+print ("Customer Data Analysis")
+print ("_________________________________________")
+print ("|                            |     |     |")
+print ("|                            | +ve | -ve |")
+print ("|____________________________|_ ___|_____|")
+print ("| 1)Product Related          |",I,"|",S,"|")
+print ("| 2)Duration                 |",J,"|",T,"|")
+print ("| 3)Month                    |",K,"|",U,"|")
+print ("| 4)Special Day              |",Q,"|",V,"|")
+print ("| 5)Region                   |",M,"|",W,"|")
+print ("| 6)Traffic Type             |",R,"|",X,"|")
+print ("| 7)Weekend                  |",O,"|",Y,"|")
+print ("| 8)Visitor Type             |",P,"|",Z,"|")
+print ("|____________________________|_____|_____|")
+print ("| Revenue                    |           |")
+print ("|          (",AA,":",BB,")     |   T / F   |")
+print ("|____________________________|___________|")
+
+
+print()
+print ("+ve is a purchase")
+print ("-ve is nul purchase")
+print ()
+if AA >= 0.5:
+ print ("There was a purchase")
+if AA < 0.5:
+  print ("There was not a purchase")
+  
+
+
+
+
+
+
+
+
+
