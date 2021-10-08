@@ -1,0 +1,139 @@
+print ("TRAFFIC")
+print()
+print ("Are you a robot? Y/N")
+aa = input()
+print()
+print ("Is the sign: ")
+print ("aa. A red circle with 20 printed.")
+print ("ab. A red circle with 30 printed.")
+print ("ac. A red circle with 50 printed.")
+print ("ad. A red circle with 60 printed.")
+print ("ae. A red circle with 70 printed.")
+print ("af. A red circle with 80 printed.")
+print ("ag. A grey circle with 80 crossed.")
+print ("ah. A red circle with 100 printed.")
+print ("ai. A red circle with 120 printed.")
+print ("aj. A red circle with 2 vehicles same, 1 red car & 1 grey car.")
+print ("ak. A red circle with 2 vehicles, 1 red lorry & 1 grey car.")
+print ("al. A red triangle with an upright cross.")
+print ("am. A rotated square with a yellow border.")
+print ("an. A triangle with a red border, pointing down.")
+print ("ao. An all red shape with STOP printed.")
+print ("ap. A circle with red border.")
+print ("aq. A red circle with lorry pointing left.")
+print ("ar. An all red circle with a white bar.")
+print ("as. A red triangle with large exclamation point.")
+print ("at. A red triangle with line bending left.")
+print ("au. A red triangle with line bending right.")
+print ("av. A red triangle with zigzag left.")
+print ("aw. A red triangle with 2 bumps.")
+print ("ax. A red triangle with car in rotation.")
+print ("ay. A red triangle with a left line & right line bent.")
+print ("az. A red triangle with man working.")
+print ("ba. A red triangle with red, amber and green circles.")
+print ("bb. A red triangle with a person walking.")
+print ("bc. A red triangle with 2 pedestrians running.")
+print ("bd. A red triangle with a bycicle.")
+print ("be. A red triangle with a snowflake.")
+print ("bf. A red triangle with a deer jumping.")
+print ("bg. A white circle with black border and diagonal black line.")
+print ("bh. A blue circle with white arrow right.")
+print ("bi. A blue circle with white arrow left.")
+print ("bj. A blue circle with white arrow pointing up.")
+print ("bk. A blue circle with 2 white arrows forking up and left.")
+print ("bl. A blue circle with 2 white arrows forking up and left.")
+print ("bm. A blue circle with 1 white arrow top left to bottom right.")
+print ("bn. A blue circle with 1 white arrow top right to bottom left.")
+print ("bo. A blue circle with 3 white arrows in a circle.")
+print ("bp. A grey circle with 2 vehicles crossed diagonally.")
+print ("bq. A red circle with a lorry pointing right, crossed.")
+print()
+print ("Which one best describes your traffic sign?")
+ca = input()
+if ca == "aa":
+  print ("Your sign is Traffic Sign 4.")
+if ca == "ab":
+  print ("Your sign is Traffic Sign 5.")
+if ca == "ac":
+  print ("Your sign is Traffic Sign 6.")
+if ca == "ad":
+  print ("Your sign is Traffic Sign 7.")
+if ca == "ae":
+  print ("Your sign is Traffic Sign 8.")
+if ca == "af":
+  print ("Your sign is Traffic Sign 9.")
+if ca == "ag":
+  print ("Your sign is Traffic Sign 10.")
+if ca == "ah":
+  print ("Your sign is Traffic Sign 11.")
+if ca == "ai":
+  print ("Your sign is Traffic Sign 12.")
+if ca == "aj":
+  print ("Your sign is Traffic Sign 0.")
+if ca == "ak":
+  print ("Your sign is Traffic Sign 1.")
+if ca == "al":
+  print ("Your sign is Traffic Sign 38.")
+if ca == "am":
+  print ("Your sign is Traffic Sign 36.")
+if ca == "an":
+  print ("Your sign is Traffic Sign 39.")
+if ca == "ao":
+  print ("Your sign is Traffic Sign 19.")
+if ca == "ap":
+  print ("Your sign is Traffic Sign 2.")
+if ca == "aq":
+  print ("Your sign is Traffic Sign 37.")
+if ca == "ar":
+  print ("Your sign is Traffic Sign 3.")
+if ca == "as":
+  print ("Your sign is Traffic Sign 41.")
+if ca == "at":
+  print ("Your sign is Traffic Sign 30.")
+if ca == "au":
+  print ("Your sign is Traffic Sign 31.")
+if ca == "av":
+  print ("Your sign is Traffic Sign 35.")
+if ca == "aw":
+  print ("Your sign is Traffic Sign 29.")
+if ca == "ax":
+  print ("Your sign is Traffic Sign 28.")
+if ca == "ay":
+  print ("Your sign is Traffic Sign 33.")
+if ca == "az":
+  print ("Your sign is Traffic Sign 34.")
+if ca == "ba":
+  print ("Your sign is Traffic Sign 13.")
+if ca == "bb":
+  print ("Your sign is Traffic Sign 15.")
+if ca == "bc":
+  print ("Your sign is Traffic Sign 42.")
+if ca == "bd":
+  print ("Your sign is Traffic Sign 17.")
+if ca == "be":
+  print ("Your sign is Traffic Sign 32.")
+if ca == "bf":
+  print ("Your sign is Traffic Sign 16.")
+if ca == "bg":
+  print ("Your sign is Traffic Sign 40.")
+if ca == "bh":
+  print ("Your sign is Traffic Sign 27.")
+if ca == "bi":
+  print ("Your sign is Traffic Sign 26.")
+if ca == "bj":
+  print ("Your sign is Traffic Sign 25.")
+if ca == "bk":
+  print ("Your sign is Traffic Sign 24.")
+if ca =="bl":
+  print ("Your sign is Traffic Sign 20.")
+if ca == "bm":
+  print ("Your sign is Traffic Sign 21.")
+if ca == "bn":
+  print ("Your sign is Traffic Sign 22.")
+if ca == "bo":
+  print ("Your sign is Traffic Sign 23.")
+if ca == "bp":
+  print ("Your sign is Traffic Sign 14.")
+if ca == "bq":
+  print ("Your sign is Traffic Sign 18.")
+#####################
